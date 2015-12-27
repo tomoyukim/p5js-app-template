@@ -1,0 +1,15 @@
+{
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "no-console": [1],
+    "no-unused-vars": [1, {"vars": "all", "args": "after-used"}],
+    "strict": [2, "global"],
+    "no-mixed-spaces-and-tabs": [2]
+  }
+}

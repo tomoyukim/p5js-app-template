@@ -1,0 +1,32 @@
+{
+  "name": "p5-app-template",
+  "version": "0.0.1",
+  "description": "scaffolding p5 app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browser-sync": "*",
+    "browserify": "^12.0.1",
+    "del": "^2.2.0",
+    "eslint": "*",
+    "gulp": "*",
+    "gulp-eslint": "*",
+    "gulp-load-plugins": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "*",
+    "node-notifier": "*",
+    "run-sequence": "^1.1.4",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "p5": "^0.4.20"
+  }
+}

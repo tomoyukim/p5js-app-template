@@ -2,6 +2,9 @@
   "ecmaFeatures": {
     "modules": true
   },
+  "parserOptions": {
+    "sourceType": module
+  },
   "env": {
     "browser": true,
     "es6": true
